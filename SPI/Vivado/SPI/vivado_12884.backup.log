@@ -1,0 +1,426 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Mar  9 19:41:05 2025
+# Process ID: 12884
+# Current directory: E:/Material/DigitalDesign/projects/SPI/Vivado/SPI
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13464 E:\Material\DigitalDesign\projects\SPI\Vivado\SPI\SPI.xpr
+# Log file: E:/Material/DigitalDesign/projects/SPI/Vivado/SPI/vivado.log
+# Journal file: E:/Material/DigitalDesign/projects/SPI/Vivado/SPI\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Material/DigitalDesign/projects/SPI/Vivado/SPI/SPI.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/PROGRAMS/Vivado/Installation_Directory/Vivado/2018.2/data/ip'.
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35ticpg236-1L
+Top: spi_slave_interface
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1022.355 ; gain = 66.059
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'spi_slave_interface' [E:/Material/DigitalDesign/projects/SPI/Vivado/SPI/SPI.srcs/sources_1/imports/RTL/spi_slave_interface.v:1]
+	Parameter MEM_DEPTH bound to: 256 - type: integer 
+	Parameter MEM_ADDR_SIZE bound to: 8 - type: integer 
+	Parameter MEM_INPUT_SIZE bound to: 10 - type: integer 
+	Parameter MEM_WORD_SIZE bound to: 8 - type: integer 
+	Parameter IDLE bound to: 0 - type: integer 
+	Parameter CHK_CMD bound to: 1 - type: integer 
+	Parameter WRITE bound to: 2 - type: integer 
+	Parameter READ_ADD bound to: 3 - type: integer 
+	Parameter READ_DATA bound to: 4 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "gray" *) [E:/Material/DigitalDesign/projects/SPI/Vivado/SPI/SPI.srcs/sources_1/imports/RTL/spi_slave_interface.v:48]
+INFO: [Synth 8-6157] synthesizing module 'single_port_async_ram' [E:/Material/DigitalDesign/projects/SPI/Vivado/SPI/SPI.srcs/sources_1/imports/RTL/single_port_async_ram.v:1]
+	Parameter MEM_DEPTH bound to: 256 - type: integer 
+	Parameter ADDR_SIZE bound to: 8 - type: integer 
+	Parameter INPUT_SIZE bound to: 10 - type: integer 
+	Parameter WORD_SIZE bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'single_port_async_ram' (1#1) [E:/Material/DigitalDesign/projects/SPI/Vivado/SPI/SPI.srcs/sources_1/imports/RTL/single_port_async_ram.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'spi_slave_interface' (2#1) [E:/Material/DigitalDesign/projects/SPI/Vivado/SPI/SPI.srcs/sources_1/imports/RTL/spi_slave_interface.v:1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1065.059 ; gain = 108.762
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1065.059 ; gain = 108.762
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1065.059 ; gain = 108.762
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35ticpg236-1L
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [E:/Material/DigitalDesign/projects/SPI/Vivado/SPI/SPI.srcs/constrs_1/imports/Constraints/SPI.xdc]
+Finished Parsing XDC File [E:/Material/DigitalDesign/projects/SPI/Vivado/SPI/SPI.srcs/constrs_1/imports/Constraints/SPI.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/Material/DigitalDesign/projects/SPI/Vivado/SPI/SPI.srcs/constrs_1/imports/Constraints/SPI.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/spi_slave_interface_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/spi_slave_interface_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:26 ; elapsed = 00:00:19 . Memory (MB): peak = 1496.559 ; gain = 540.262
+10 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:19 . Memory (MB): peak = 1496.559 ; gain = 540.262
+export_ip_user_files -of_objects  [get_files E:/Material/DigitalDesign/projects/SPI/Vivado/SPI/SPI.srcs/sources_1/imports/RTL/spi_slave_interface.v] -no_script -reset -force -quiet
+remove_files  E:/Material/DigitalDesign/projects/SPI/Vivado/SPI/SPI.srcs/sources_1/imports/RTL/spi_slave_interface.v
+import_files -force -norecurse E:/Material/DigitalDesign/projects/SPI/RTL/spi_slave_interface.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1496.559 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'spi_slave_interface' [E:/Material/DigitalDesign/projects/SPI/Vivado/SPI/SPI.srcs/sources_1/imports/RTL/spi_slave_interface.v:1]
+	Parameter MEM_DEPTH bound to: 256 - type: integer 
+	Parameter MEM_ADDR_SIZE bound to: 8 - type: integer 
+	Parameter MEM_INPUT_SIZE bound to: 10 - type: integer 
+	Parameter MEM_WORD_SIZE bound to: 8 - type: integer 
+	Parameter IDLE bound to: 0 - type: integer 
+	Parameter CHK_CMD bound to: 1 - type: integer 
+	Parameter WRITE bound to: 2 - type: integer 
+	Parameter READ_ADD bound to: 3 - type: integer 
+	Parameter READ_DATA bound to: 4 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "gray" *) [E:/Material/DigitalDesign/projects/SPI/Vivado/SPI/SPI.srcs/sources_1/imports/RTL/spi_slave_interface.v:48]
+INFO: [Synth 8-6157] synthesizing module 'single_port_async_ram' [E:/Material/DigitalDesign/projects/SPI/Vivado/SPI/SPI.srcs/sources_1/imports/RTL/single_port_async_ram.v:1]
+	Parameter MEM_DEPTH bound to: 256 - type: integer 
+	Parameter ADDR_SIZE bound to: 8 - type: integer 
+	Parameter INPUT_SIZE bound to: 10 - type: integer 
+	Parameter WORD_SIZE bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'single_port_async_ram' (1#1) [E:/Material/DigitalDesign/projects/SPI/Vivado/SPI/SPI.srcs/sources_1/imports/RTL/single_port_async_ram.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'spi_slave_interface' (2#1) [E:/Material/DigitalDesign/projects/SPI/Vivado/SPI/SPI.srcs/sources_1/imports/RTL/spi_slave_interface.v:1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1516.613 ; gain = 20.055
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1516.613 ; gain = 20.055
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1516.613 ; gain = 20.055
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [E:/Material/DigitalDesign/projects/SPI/Vivado/SPI/SPI.srcs/constrs_1/imports/Constraints/SPI.xdc]
+Finished Parsing XDC File [E:/Material/DigitalDesign/projects/SPI/Vivado/SPI/SPI.srcs/constrs_1/imports/Constraints/SPI.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/Material/DigitalDesign/projects/SPI/Vivado/SPI/SPI.srcs/constrs_1/imports/Constraints/SPI.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/spi_slave_interface_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/spi_slave_interface_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Sun Mar  9 20:14:37 2025] Launched synth_1...
+Run output will be captured here: E:/Material/DigitalDesign/projects/SPI/Vivado/SPI/SPI.runs/synth_1/runme.log
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35ticpg236-1L
+INFO: [Netlist 29-17] Analyzing 6 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [E:/Material/DigitalDesign/projects/SPI/Vivado/SPI/SPI.srcs/constrs_1/imports/Constraints/SPI.xdc]
+Finished Parsing XDC File [E:/Material/DigitalDesign/projects/SPI/Vivado/SPI/SPI.srcs/constrs_1/imports/Constraints/SPI.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+report_utilization -name utilization_1
+report_utilization: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.861 . Memory (MB): peak = 1516.613 ; gain = 0.000
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1L, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+report_timing_summary: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1970.820 ; gain = 454.207
+report_power -name {power_1}
+Command: report_power -name power_1
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+0 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+implement_debug_core
+INFO: [Chipscope 16-329] Generating Script for core instance : dbg_hub 
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:xsdbm:3.0 for cell dbg_hub_CV.
+INFO: [Chipscope 16-329] Generating Script for core instance : u_ila_0 
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:ila:6.2 for cell u_ila_0_CV.
+INFO: [Chipscope 16-220] Re-using generated and synthesized IP, "xilinx.com:ip:xsdbm:3.0", from Vivado IP cache entry "9a650ad267bdd151".
+INFO: [Chipscope 16-220] Re-using generated and synthesized IP, "xilinx.com:ip:ila:6.2", from Vivado IP cache entry "84c35de80eb0d933".
+INFO: [Chipscope 16-78] labtools_xsdbm_v3 netlist file is 'e:/Material/DigitalDesign/projects/SPI/Vivado/SPI/.Xil/Vivado-12884-DESKTOP-49MVOV2/dbg_hub_CV.0/out/dcp/dbg_hub_0.edf'.
+INFO: [Chipscope 16-78] labtools_ila_v6 netlist file is 'e:/Material/DigitalDesign/projects/SPI/Vivado/SPI/.Xil/Vivado-12884-DESKTOP-49MVOV2/u_ila_0_CV.0/out/dcp/u_ila_0_1.edf'.
+implement_debug_core: Time (s): cpu = 00:00:05 ; elapsed = 00:00:30 . Memory (MB): peak = 2128.297 ; gain = 115.199
+write_edif E:/Material/DigitalDesign/projects/SPI/RTL/SPI.edn
+write_verilog E:/Material/DigitalDesign/projects/SPI/RTL/SPI.v
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35ticpg236-1L
+Top: spi_slave_interface
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 2128.297 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'spi_slave_interface' [E:/Material/DigitalDesign/projects/SPI/Vivado/SPI/SPI.srcs/sources_1/imports/RTL/spi_slave_interface.v:1]
+	Parameter MEM_DEPTH bound to: 256 - type: integer 
+	Parameter MEM_ADDR_SIZE bound to: 8 - type: integer 
+	Parameter MEM_INPUT_SIZE bound to: 10 - type: integer 
+	Parameter MEM_WORD_SIZE bound to: 8 - type: integer 
+	Parameter IDLE bound to: 0 - type: integer 
+	Parameter CHK_CMD bound to: 1 - type: integer 
+	Parameter WRITE bound to: 2 - type: integer 
+	Parameter READ_ADD bound to: 3 - type: integer 
+	Parameter READ_DATA bound to: 4 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "gray" *) [E:/Material/DigitalDesign/projects/SPI/Vivado/SPI/SPI.srcs/sources_1/imports/RTL/spi_slave_interface.v:48]
+INFO: [Synth 8-6157] synthesizing module 'single_port_async_ram' [E:/Material/DigitalDesign/projects/SPI/Vivado/SPI/SPI.srcs/sources_1/imports/RTL/single_port_async_ram.v:1]
+	Parameter MEM_DEPTH bound to: 256 - type: integer 
+	Parameter ADDR_SIZE bound to: 8 - type: integer 
+	Parameter INPUT_SIZE bound to: 10 - type: integer 
+	Parameter WORD_SIZE bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'single_port_async_ram' (1#1) [E:/Material/DigitalDesign/projects/SPI/Vivado/SPI/SPI.srcs/sources_1/imports/RTL/single_port_async_ram.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'spi_slave_interface' (2#1) [E:/Material/DigitalDesign/projects/SPI/Vivado/SPI/SPI.srcs/sources_1/imports/RTL/spi_slave_interface.v:1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2148.773 ; gain = 20.477
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2148.773 ; gain = 20.477
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2148.773 ; gain = 20.477
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [E:/Material/DigitalDesign/projects/SPI/Vivado/SPI/SPI.srcs/constrs_1/imports/Constraints/SPI.xdc]
+Finished Parsing XDC File [E:/Material/DigitalDesign/projects/SPI/Vivado/SPI/SPI.srcs/constrs_1/imports/Constraints/SPI.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/Material/DigitalDesign/projects/SPI/Vivado/SPI/SPI.srcs/constrs_1/imports/Constraints/SPI.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/spi_slave_interface_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/spi_slave_interface_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 2291.922 ; gain = 163.625
+9 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design -rtl -name rtl_2
+Command: synth_design -rtl -name rtl_2
+Starting synth_design
+Using part: xc7a35ticpg236-1L
+Top: spi_slave_interface
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 2291.922 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'spi_slave_interface' [E:/Material/DigitalDesign/projects/SPI/Vivado/SPI/SPI.srcs/sources_1/imports/RTL/spi_slave_interface.v:1]
+	Parameter MEM_DEPTH bound to: 256 - type: integer 
+	Parameter MEM_ADDR_SIZE bound to: 8 - type: integer 
+	Parameter MEM_INPUT_SIZE bound to: 10 - type: integer 
+	Parameter MEM_WORD_SIZE bound to: 8 - type: integer 
+	Parameter IDLE bound to: 0 - type: integer 
+	Parameter CHK_CMD bound to: 1 - type: integer 
+	Parameter WRITE bound to: 2 - type: integer 
+	Parameter READ_ADD bound to: 3 - type: integer 
+	Parameter READ_DATA bound to: 4 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "gray" *) [E:/Material/DigitalDesign/projects/SPI/Vivado/SPI/SPI.srcs/sources_1/imports/RTL/spi_slave_interface.v:48]
+INFO: [Synth 8-6157] synthesizing module 'single_port_async_ram' [E:/Material/DigitalDesign/projects/SPI/Vivado/SPI/SPI.srcs/sources_1/imports/RTL/single_port_async_ram.v:1]
+	Parameter MEM_DEPTH bound to: 256 - type: integer 
+	Parameter ADDR_SIZE bound to: 8 - type: integer 
+	Parameter INPUT_SIZE bound to: 10 - type: integer 
+	Parameter WORD_SIZE bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'single_port_async_ram' (1#1) [E:/Material/DigitalDesign/projects/SPI/Vivado/SPI/SPI.srcs/sources_1/imports/RTL/single_port_async_ram.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'spi_slave_interface' (2#1) [E:/Material/DigitalDesign/projects/SPI/Vivado/SPI/SPI.srcs/sources_1/imports/RTL/spi_slave_interface.v:1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 2301.734 ; gain = 9.812
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 2301.734 ; gain = 9.812
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 2301.734 ; gain = 9.812
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [E:/Material/DigitalDesign/projects/SPI/Vivado/SPI/SPI.srcs/constrs_1/imports/Constraints/SPI.xdc]
+Finished Parsing XDC File [E:/Material/DigitalDesign/projects/SPI/Vivado/SPI/SPI.srcs/constrs_1/imports/Constraints/SPI.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/Material/DigitalDesign/projects/SPI/Vivado/SPI/SPI.srcs/constrs_1/imports/Constraints/SPI.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/spi_slave_interface_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/spi_slave_interface_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 2442.891 ; gain = 150.969
+9 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+close_design
+refresh_design
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [E:/Material/DigitalDesign/projects/SPI/Vivado/SPI/SPI.srcs/constrs_1/imports/Constraints/SPI.xdc]
+Finished Parsing XDC File [E:/Material/DigitalDesign/projects/SPI/Vivado/SPI/SPI.srcs/constrs_1/imports/Constraints/SPI.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/Material/DigitalDesign/projects/SPI/Vivado/SPI/SPI.srcs/constrs_1/imports/Constraints/SPI.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/spi_slave_interface_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/spi_slave_interface_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Sun Mar  9 20:26:23 2025] Launched synth_1...
+Run output will be captured here: E:/Material/DigitalDesign/projects/SPI/Vivado/SPI/SPI.runs/synth_1/runme.log
+current_design synth_1
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35ticpg236-1L
+INFO: [Netlist 29-17] Analyzing 6 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [E:/Material/DigitalDesign/projects/SPI/Vivado/SPI/SPI.srcs/constrs_1/imports/Constraints/SPI.xdc]
+Finished Parsing XDC File [E:/Material/DigitalDesign/projects/SPI/Vivado/SPI/SPI.srcs/constrs_1/imports/Constraints/SPI.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+delete_debug_core [get_debug_cores {u_ila_0 }]
+create_debug_core u_ila_0 ila
+set_property C_DATA_DEPTH 1024 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+set_property port_width 1 [get_debug_ports u_ila_0/clk]
+connect_debug_port u_ila_0/clk [get_nets [list clk_IBUF_BUFG ]]
+set_property port_width 1 [get_debug_ports u_ila_0/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+connect_debug_port u_ila_0/probe0 [get_nets [list clk_IBUF ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe1]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe1]
+connect_debug_port u_ila_0/probe1 [get_nets [list MISO_OBUF ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe2]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe2]
+connect_debug_port u_ila_0/probe2 [get_nets [list MOSI_IBUF ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe3]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe3]
+connect_debug_port u_ila_0/probe3 [get_nets [list rst_n_IBUF ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe4]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe4]
+connect_debug_port u_ila_0/probe4 [get_nets [list SS_n_IBUF ]]
+save_constraints
+launch_runs impl_1 -jobs 8
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.064 . Memory (MB): peak = 2442.891 ; gain = 0.000
+[Sun Mar  9 20:28:24 2025] Launched impl_1...
+Run output will be captured here: E:/Material/DigitalDesign/projects/SPI/Vivado/SPI/SPI.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Mar  9 20:29:59 2025] Launched impl_1...
+Run output will be captured here: E:/Material/DigitalDesign/projects/SPI/Vivado/SPI/SPI.runs/impl_1/runme.log
+close_design
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 104 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Chipscope 16-324] Core: u_ila_0 UUID: 23e7d65a-79bc-59f7-bc47-406c1714dfae 
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.305 . Memory (MB): peak = 2442.891 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.305 . Memory (MB): peak = 2442.891 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 54 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRLC32E, SRL16E): 48 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 6 instances
+
+WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
+report_utilization -name utilization_1
+report_utilization: Time (s): cpu = 00:00:05 ; elapsed = 00:00:02 . Memory (MB): peak = 2442.891 ; gain = 0.000
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1L, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
+report_power -name {power_1}
+Command: report_power -name power_1
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+0 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Mar  9 20:34:11 2025] Launched impl_1...
+Run output will be captured here: E:/Material/DigitalDesign/projects/SPI/Vivado/SPI/SPI.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Mar  9 20:40:36 2025...

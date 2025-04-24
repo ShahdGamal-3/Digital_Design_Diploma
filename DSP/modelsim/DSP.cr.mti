@@ -1,0 +1,22 @@
+E:/Material/DigitalDesign/projects/code/reg_mux_pair.v {1 {vlog -work work -stats=none E:/Material/DigitalDesign/projects/code/reg_mux_pair.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module REG_MUX_pair
+
+Top level modules:
+	REG_MUX_pair
+
+} {} {}} E:/Material/DigitalDesign/projects/code/DSP.v {1 {vlog -work work -stats=none E:/Material/DigitalDesign/projects/code/DSP.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module DSP48A1
+
+Top level modules:
+	DSP48A1
+
+} {} {}} E:/Material/DigitalDesign/projects/code/DSP_tb.v {1 {vlog -work work -stats=none E:/Material/DigitalDesign/projects/code/DSP_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module DSP48A1_tb
+
+Top level modules:
+	DSP48A1_tb
+
+} {} {}}

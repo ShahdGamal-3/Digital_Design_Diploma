@@ -1,0 +1,144 @@
+====================================================================================================
+Lint Check Report
+Questa Lint  Version 2021.1 4558100 win64 28-Jan-2021
+
+Timestamp            : Sat Mar  8 11:34:05 2025
+Description          : Report for referring checks count, check violations details, and  design information
+Design               : DSP48A1
+Database             : E:/Material/DigitalDesign/projects/lint/lint.db
+Design Quality Score : 99.1%
+
+Sections:
+   Section 1 : Check Summary
+   Section 2 : Check Details
+   Section 3 : Design Information
+====================================================================================================
+
+
+====================================================================================================
+Section 1 : Check Summary
+====================================================================================================
+-------------
+| Error (0) |
+-------------
+
+---------------
+| Warning (5) |
+---------------
+  mux_select_const                        : 5
+
+-------------
+| Info (16) |
+-------------
+  condition_const                         : 2
+  parameter_name_duplicate                : 1
+  line_char_large                         : 11
+  multi_ports_in_single_line              : 2
+
+----------------
+| Resolved (0) |
+----------------
+
+
+====================================================================================================
+Section 2 : Check Details
+====================================================================================================
+-------------
+| Error (0) |
+-------------
+
+
+---------------
+| Warning (5) |
+---------------
+
+Check: mux_select_const [Category: Connectivity] (5)
+       [Message: Constant value drives mux select pin. Signal '<signal>', Module '<module>', File '<file>', Line '<line>'.]
+----------------------------------------------------------------------------------------------------------------------------
+mux_select_const: [uninspected] Constant value drives mux select pin. Signal 'CYI_BLOCK.BLOCK_OUT', Module 'REG_MUX_pair', File 'E:/Material/DigitalDesign/projects/code/reg_mux_pair.v', Line '32'.
+
+mux_select_const: [uninspected] Constant value drives mux select pin. Signal 'C_BLOCK.BLOCK_OUT', Module 'REG_MUX_pair', File 'E:/Material/DigitalDesign/projects/code/reg_mux_pair.v', Line '32'.
+
+mux_select_const: [uninspected] Constant value drives mux select pin. Signal 'D_BLOCK.BLOCK_OUT', Module 'REG_MUX_pair', File 'E:/Material/DigitalDesign/projects/code/reg_mux_pair.v', Line '32'.
+
+mux_select_const: [uninspected] Constant value drives mux select pin. Signal 'MUL_BLOCK.BLOCK_OUT', Module 'REG_MUX_pair', File 'E:/Material/DigitalDesign/projects/code/reg_mux_pair.v', Line '32'.
+
+mux_select_const: [uninspected] Constant value drives mux select pin. Signal 'OPMODE_BLOCK.BLOCK_OUT', Module 'REG_MUX_pair', File 'E:/Material/DigitalDesign/projects/code/reg_mux_pair.v', Line '32'.
+
+
+
+-------------
+| Info (16) |
+-------------
+
+Check: condition_const [Category: Rtl Design Style] (2)
+       [Message: Condition expression is a constant. Module '<module>', File '<file>', Line '<line>'.]
+-------------------------------------------------------------------------------------------------------
+condition_const: [uninspected] Condition expression is a constant. Module 'DSP48A1', File 'E:/Material/DigitalDesign/projects/code/DSP.v', Line '52'. [RTL ID:fa5870fb_00200]
+
+condition_const: [uninspected] Condition expression is a constant. Module 'DSP48A1', File 'E:/Material/DigitalDesign/projects/code/DSP.v', Line '96'. [RTL ID:b0df09d3_00200]
+
+
+Check: parameter_name_duplicate [Category: Nomenclature Style] (1)
+       [Message: Same parameter name is used in more than one module. Parameter '<parameter>', Total count '<count>', First module: Module '<module1>', File '<file1>', Line '<line1>', Second module: Module '<module2>', File '<file2>', Line '<line2>']
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+parameter_name_duplicate: [uninspected] Same parameter name is used in more than one module. Parameter 'RSTTYPE', Total count '2', First module: Module 'DSP48A1', File 'E:/Material/DigitalDesign/projects/code/DSP.v', Line '20', Second module: Module 'REG_MUX_pair', File 'E:/Material/DigitalDesign/projects/code/reg_mux_pair.v', Line '2'
+
+
+Check: line_char_large [Category: Rtl Design Style] (11)
+       [Message: Line has more characters than the specified limit. Current Count '<count>', Specified Limit '<limit>', File '<file>', Line '<line>'.]
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+line_char_large: [uninspected] Line has more characters than the specified limit. Current Count '125', Specified Limit '110', File 'E:/Material/DigitalDesign/projects/code/DSP.v', Line '55'.
+    1 more occurrence at: line 58.
+
+line_char_large: [uninspected] Line has more characters than the specified limit. Current Count '136', Specified Limit '110', File 'E:/Material/DigitalDesign/projects/code/DSP.v', Line '56'.
+
+line_char_large: [uninspected] Line has more characters than the specified limit. Current Count '127', Specified Limit '110', File 'E:/Material/DigitalDesign/projects/code/DSP.v', Line '57'.
+
+line_char_large: [uninspected] Line has more characters than the specified limit. Current Count '149', Specified Limit '110', File 'E:/Material/DigitalDesign/projects/code/DSP.v', Line '67'.
+
+line_char_large: [uninspected] Line has more characters than the specified limit. Current Count '142', Specified Limit '110', File 'E:/Material/DigitalDesign/projects/code/DSP.v', Line '80'.
+
+line_char_large: [uninspected] Line has more characters than the specified limit. Current Count '138', Specified Limit '110', File 'E:/Material/DigitalDesign/projects/code/DSP.v', Line '81'.
+
+line_char_large: [uninspected] Line has more characters than the specified limit. Current Count '111', Specified Limit '110', File 'E:/Material/DigitalDesign/projects/code/DSP.v', Line '96'.
+
+line_char_large: [uninspected] Line has more characters than the specified limit. Current Count '133', Specified Limit '110', File 'E:/Material/DigitalDesign/projects/code/DSP.v', Line '107'.
+
+line_char_large: [uninspected] Line has more characters than the specified limit. Current Count '156', Specified Limit '110', File 'E:/Material/DigitalDesign/projects/code/DSP.v', Line '108'.
+
+line_char_large: [uninspected] Line has more characters than the specified limit. Current Count '157', Specified Limit '110', File 'E:/Material/DigitalDesign/projects/code/DSP.v', Line '137'.
+
+line_char_large: [uninspected] Line has more characters than the specified limit. Current Count '137', Specified Limit '110', File 'E:/Material/DigitalDesign/projects/code/DSP.v', Line '138'.
+
+
+Check: multi_ports_in_single_line [Category: Rtl Design Style] (2)
+       [Message: Multiple ports are declared in one line. Module '<module>', File '<file>', Line '<line>'.]
+------------------------------------------------------------------------------------------------------------
+multi_ports_in_single_line: [uninspected] Multiple ports are declared in one line. Module 'DSP48A1', File 'E:/Material/DigitalDesign/projects/code/DSP.v', Line '23'.
+    3 more occurrences at: line 38, line 39, and line 42.
+
+multi_ports_in_single_line: [uninspected] Multiple ports are declared in one line. Module 'REG_MUX_pair', File 'E:/Material/DigitalDesign/projects/code/reg_mux_pair.v', Line '4'.
+
+
+
+----------------
+| Resolved (0) |
+----------------
+
+
+
+====================================================================================================
+Section 3 : Design Information
+====================================================================================================
+-----------
+| Summary |
+-----------
+  Register Bits                           : 232
+  Latch Bits                              : 0
+  User-specified Blackboxes               : 0
+  Inferred Blackboxes                     : 0
+  Empty Modules                           : 0
+  Unresolved Modules                      : 0
+  Hierarchical IPs                        : 0
+

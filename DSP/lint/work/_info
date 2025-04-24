@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Material/DigitalDesign/projects/lint
+vDSP48A1
+!s110 1741425606
+!i10b 1
+!s100 BmSQcZ:MCRUPTOJMho[eJ1
+I=h0B0[O[T4cA6W@neKiNR1
+R0
+w1741421527
+8E:/Material/DigitalDesign/projects/code/DSP.v
+FE:/Material/DigitalDesign/projects/code/DSP.v
+!i122 2
+L0 3 138
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z3 !s108 1741425606.000000
+!s107 E:/Material/DigitalDesign/projects/code/DSP.v|
+!s90 E:/Material/DigitalDesign/projects/code/DSP.v|-work|work|
+!i113 0
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z5 tCvgOpt 0
+n@d@s@p48@a1
+vREG_MUX_pair
+!s110 1741425607
+!i10b 1
+!s100 KoI1JX]eA5eHSVXl`?_2U0
+ID3H0OG`A6UHzW513`WmGW2
+R0
+w1741419590
+8E:/Material/DigitalDesign/projects/code/reg_mux_pair.v
+FE:/Material/DigitalDesign/projects/code/reg_mux_pair.v
+!i122 3
+L0 1 33
+R1
+R2
+r1
+!s85 0
+31
+R3
+!s107 E:/Material/DigitalDesign/projects/code/reg_mux_pair.v|
+!s90 E:/Material/DigitalDesign/projects/code/reg_mux_pair.v|-work|work|
+!i113 0
+R4
+R5
+n@r@e@g_@m@u@x_pair

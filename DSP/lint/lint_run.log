@@ -1,0 +1,197 @@
+# 
+# Questa Static Verification System
+# Version 2021.1 4558100 win64 28-Jan-2021
+
+log created Sat Mar  8 11:34:14 2025 by shahd on DESKTOP-49MVOV2
+
+
+# 
+# Questa Static Verification System
+# Version 2021.1 4558100 win64 28-Jan-2021
+
+log created Sat Mar  8 11:33:49 2025 by shahd on DESKTOP-49MVOV2
+
+
+Command: netlist elaborate
+Command arguments:
+    -zdb E:/Material/DigitalDesign/projects/lint/qcache/DB/zdb_7
+    -tool lint
+    -d DSP48A1
+    -L work
+
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False)
+
+
+## Elaborating Design...
+Reading MTI mapping for library mapping
+Writing all MTI mappings to vmap output ...
+
+Top level modules:
+	DSP48A1
+
+Analyzing design...
+-- Loading module z0in_work.DSP48A1
+
+Performing 103 Lint Checks
+=============================
+
+Lint Stage 1 of 5 - Pre Design Elaboration (4 checks)
+------------------------------------------------------
+-- Loading module z0in_work.REG_MUX_pair
+Warning : Vopt warning.  (vopt-2241) Connection width does not match width of port 'SEL'. The port definition is at: E:/Material/DigitalDesign/projects/code/reg_mux_pair.v(1), File 'E:/Material/DigitalDesign/projects/code/DSP.v', Line 138.  [parser-285]
+        : Elaboration will continue.
+Warning : Vopt warning.  (vopt-2241) Connection width does not match width of port 'SEL'. The port definition is at: E:/Material/DigitalDesign/projects/code/reg_mux_pair.v(1), File 'E:/Material/DigitalDesign/projects/code/DSP.v', Line 137.  [parser-285]
+        : Elaboration will continue.
+Warning : Vopt warning.  (vopt-2241) Connection width does not match width of port 'SEL'. The port definition is at: E:/Material/DigitalDesign/projects/code/reg_mux_pair.v(1), File 'E:/Material/DigitalDesign/projects/code/DSP.v', Line 108.  [parser-285]
+        : Elaboration will continue.
+Warning : Vopt warning.  (vopt-2241) Connection width does not match width of port 'SEL'. The port definition is at: E:/Material/DigitalDesign/projects/code/reg_mux_pair.v(1), File 'E:/Material/DigitalDesign/projects/code/DSP.v', Line 107.  [parser-285]
+        : Elaboration will continue.
+Warning : Vopt warning.  (vopt-2241) Connection width does not match width of port 'SEL'. The port definition is at: E:/Material/DigitalDesign/projects/code/reg_mux_pair.v(1), File 'E:/Material/DigitalDesign/projects/code/DSP.v', Line 81.  [parser-285]
+        : Elaboration will continue.
+Warning : Vopt warning.  (vopt-2241) Connection width does not match width of port 'SEL'. The port definition is at: E:/Material/DigitalDesign/projects/code/reg_mux_pair.v(1), File 'E:/Material/DigitalDesign/projects/code/DSP.v', Line 80.  [parser-285]
+        : Elaboration will continue.
+Warning : Vopt warning.  (vopt-2241) Connection width does not match width of port 'SEL'. The port definition is at: E:/Material/DigitalDesign/projects/code/reg_mux_pair.v(1), File 'E:/Material/DigitalDesign/projects/code/DSP.v', Line 67.  [parser-285]
+        : Elaboration will continue.
+Warning : Vopt warning.  (vopt-2241) Connection width does not match width of port 'SEL'. The port definition is at: E:/Material/DigitalDesign/projects/code/reg_mux_pair.v(1), File 'E:/Material/DigitalDesign/projects/code/DSP.v', Line 58.  [parser-285]
+        : Elaboration will continue.
+Warning : Vopt warning.  (vopt-2241) Connection width does not match width of port 'SEL'. The port definition is at: E:/Material/DigitalDesign/projects/code/reg_mux_pair.v(1), File 'E:/Material/DigitalDesign/projects/code/DSP.v', Line 57.  [parser-285]
+        : Elaboration will continue.
+Warning : Vopt warning.  (vopt-2241) Connection width does not match width of port 'SEL'. The port definition is at: E:/Material/DigitalDesign/projects/code/reg_mux_pair.v(1), File 'E:/Material/DigitalDesign/projects/code/DSP.v', Line 56.  [parser-285]
+        : Elaboration will continue.
+Warning : Vopt warning.  (vopt-2241) Connection width does not match width of port 'SEL'. The port definition is at: E:/Material/DigitalDesign/projects/code/reg_mux_pair.v(1), File 'E:/Material/DigitalDesign/projects/code/DSP.v', Line 55.  [parser-285]
+        : Elaboration will continue.
+Optimizing 6 design-units (inlining 0/12 module instances):
+-- Optimizing module z0in_work.REG_MUX_pair(fast)
+Lint Stage-1 100% complete [Total Progress -   7%]
+
+Lint Stage 2 of 5 - Design Elaboration (66 checks)
+---------------------------------------------------
+-- Optimizing module z0in_work.REG_MUX_pair(fast__1)
+Lint Stage-2  17% complete (1 out of 6 modules checked) [Total Progress -   8%]
+-- Optimizing module z0in_work.REG_MUX_pair(fast__2)
+Lint Stage-2  33% complete (2 out of 6 modules checked) [Total Progress -  11%]
+-- Optimizing module z0in_work.REG_MUX_pair(fast__3)
+Lint Stage-2  50% complete (3 out of 6 modules checked) [Total Progress -  14%]
+-- Optimizing module z0in_work.REG_MUX_pair(fast__4)
+Lint Stage-2  67% complete (4 out of 6 modules checked) [Total Progress -  17%]
+-- Optimizing module z0in_work.DSP48A1(fast)
+Lint Stage-2  83% complete (5 out of 6 modules checked) [Total Progress -  20%]
+Optimized design name is zi_opt_def_66188162_1
+Lint Stage-2 100% complete (6 out of 6 modules checked) [Total Progress -  23%]
+Summary: 11 Warnings in processing "netlist elaborate"
+End of log Sat Mar  8 11:33:56 2025
+
+
+# 
+# Questa Static Verification System
+# Version 2021.1 4558100 win64 28-Jan-2021
+
+log created Sat Mar  8 11:33:58 2025 by shahd on DESKTOP-49MVOV2
+
+
+Command: netlist create
+Command arguments:
+    -zdb E:/Material/DigitalDesign/projects/lint/qcache/DB/zdb_7
+    -tool lint
+    -d DSP48A1
+    -L work
+
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False)
+
+
+## Synthesizing netlist...
+
+Lint Stage 3 of 5 - Post Design Elaboration (17 checks)
+--------------------------------------------------------
+Lint Stage-3  24% complete [Total Progress -  27%]
+Lint Stage-3  47% complete [Total Progress -  29%]
+Lint Stage-3  71% complete [Total Progress -  32%]
+Lint Stage-3  94% complete [Total Progress -  34%]
+Lint Stage-3 100% complete [Total Progress -  35%]
+Analyzing designs.
+Elaborating module 'REG_MUX_pair'.
+Elaborating module 'REG_MUX_pair(1)'.
+Elaborating module 'REG_MUX_pair(2)'.
+Elaborating module 'REG_MUX_pair(3)'.
+Elaborating module 'REG_MUX_pair(4)'.
+Elaborating module 'DSP48A1'.
+
+Lint Stage 4 of 5 - Design Synthesis (1 checks)
+------------------------------------------------
+Lint Stage-4 100% complete [Total Progress -  75%]
+
+Lint Stage 5 of 5 - Post Design Synthesis (15 checks)
+------------------------------------------------------
+Lint Stage-5  20% complete [Total Progress -  88%]
+Lint Stage-5  40% complete [Total Progress -  91%]
+Lint Stage-5  60% complete [Total Progress -  94%]
+Lint Stage-5  80% complete [Total Progress -  97%]
+Lint Stage-5 100% complete [Total Progress - 100%]
+
+Lint Checking Completed
+##Time Taken (Synthesis) = 1748.000000 ticks = 1.748000 secs
+
+Summary: 11 Warnings in processing "netlist create"
+End of log Sat Mar  8 11:34:05 2025
+
+
+# Reading design database from E:/Material/DigitalDesign/projects/lint/qcache/LINT/CACHE...completed (0.001 (s)).
+End of log Sat Mar  8 11:34:07 2025
+
+
+# 
+# Questa Static Verification System
+# Version 2021.1 4558100 win64 28-Jan-2021
+
+log created Sat Mar  8 11:34:07 2025 by shahd on DESKTOP-49MVOV2
+
+
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False)
+
+
+## Applying Lint Waivers...
+
+Message Summary
+---------------------------------------------------------------------------
+Count  Type     Message ID         Summary
+---------------------------------------------------------------------------
+   11  Warning  parser-285         Vopt warning.
+
+Final Process Statistics: Max memory 276MB, CPU time 18s, Total time 19s
+End of log Sat Mar  8 11:34:12 2025
+
+
+Result Summary
+-----------------------------------------------------------
+Error (0)
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+Warning (5)
+-----------------------------------------------------------
+  mux_select_const                        :5
+
+-----------------------------------------------------------
+Info (16)
+-----------------------------------------------------------
+  condition_const                         :2
+  parameter_name_duplicate                :1
+  line_char_large                         :11
+  multi_ports_in_single_line              :2
+
+-----------------------------------------------------------
+Resolved (0)
+-----------------------------------------------------------
+
+# Generating Debug Information...
+
+=================================================================
+To view results in batch
+  E:/Material/DigitalDesign/projects/lint/lint.rpt
+
+To view results in GUI (Beta Version) 
+  qverify E:/Material/DigitalDesign/projects/lint/lint.db
+=================================================================

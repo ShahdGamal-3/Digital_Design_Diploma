@@ -1,0 +1,90 @@
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 5
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/share/modeltech/win64/vlib work
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 6
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/share/modeltech/win64/vmap work work
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 7
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/share/modeltech/win64/vlog E:/Material/DigitalDesign/projects/code/DSP.v -work work
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 8
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/share/modeltech/win64/vlog E:/Material/DigitalDesign/projects/code/reg_mux_pair.v -work work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 417
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverifyek  -od E:/Material/DigitalDesign/projects/lint -l .elab.log  -cli -internal -cmd elab -zdb E:/Material/DigitalDesign/projects/lint/qcache/DB/zdb_1 -tool lint -d DSP -L work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 623
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverifyek  -od E:/Material/DigitalDesign/projects/lint -l .elab.log  -cli -internal -cmd elab -zdb E:/Material/DigitalDesign/projects/lint/qcache/DB/zdb_2 -tool lint -d DSP -L work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 830
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/share/modeltech/win64/vlib work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 831
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/share/modeltech/win64/vmap work work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 832
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/share/modeltech/win64/vlog E:/Material/DigitalDesign/projects/code/DSP.v -work work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 833
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/share/modeltech/win64/vlog E:/Material/DigitalDesign/projects/code/reg_mux_pair.v -work work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 1039
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverifyek  -od E:/Material/DigitalDesign/projects/lint -l .elab.log  -cli -internal -cmd elab -zdb E:/Material/DigitalDesign/projects/lint/qcache/DB/zdb_4 -tool lint -d DSP -L work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 1245
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverifyek  -od E:/Material/DigitalDesign/projects/lint -l .elab.log  -cli -internal -cmd elab -zdb E:/Material/DigitalDesign/projects/lint/qcache/DB/zdb_5 -tool lint -d DSP48A1 -L work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 1245
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverifyek  -od E:/Material/DigitalDesign/projects/lint -l .createnl.log  -cli -internal -cmd create_netlist -zdb E:/Material/DigitalDesign/projects/lint/qcache/DB/zdb_5 -tool lint -d DSP48A1 -L work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 1247
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverifyek  -od E:/Material/DigitalDesign/projects/lint -l .qlcstatus.log  -cli -internal -cmd qlc_status_update -zdb E:/Material/DigitalDesign/projects/lint/qcache/DB/zdb_6 -db E:/Material/DigitalDesign/projects/lint/lint.db
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 1473
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverifyek  -od E:/Material/DigitalDesign/projects/lint -l .elab.log  -cli -internal -cmd elab -zdb E:/Material/DigitalDesign/projects/lint/qcache/DB/zdb_7 -tool lint -d DSP48A1 -L work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 1473
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverifyek  -od E:/Material/DigitalDesign/projects/lint -l .createnl.log  -cli -internal -cmd create_netlist -zdb E:/Material/DigitalDesign/projects/lint/qcache/DB/zdb_7 -tool lint -d DSP48A1 -L work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 1475
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverifyek  -od E:/Material/DigitalDesign/projects/lint -l .qlcstatus.log  -cli -internal -cmd qlc_status_update -zdb E:/Material/DigitalDesign/projects/lint/qcache/DB/zdb_8 -db E:/Material/DigitalDesign/projects/lint/lint.db

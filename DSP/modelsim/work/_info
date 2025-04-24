@@ -1,0 +1,98 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/18.0
+vBLOCK
+!s110 1741420498
+!i10b 1
+!s100 K=V3;lA7=WJV?:X1UC@4I0
+If>UM5nD@GJ1BSU11Ol>_;1
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dE:/Material/DigitalDesign/projects/modelsim
+w1741377905
+8C:/Users/shahd/Downloads/BLOCK.v
+FC:/Users/shahd/Downloads/BLOCK.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1741420498.000000
+!s107 C:/Users/shahd/Downloads/BLOCK.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/shahd/Downloads/BLOCK.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+n@b@l@o@c@k
+vDSP48A1
+Z5 !s110 1741487146
+!i10b 1
+!s100 6j>Ga8biSfP2;cie<5cT41
+ICW`0Wl^IOlGKGP1<jM=dc3
+R0
+R1
+w1741460676
+8E:/Material/DigitalDesign/projects/code/DSP.v
+FE:/Material/DigitalDesign/projects/code/DSP.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1741487145.000000
+!s107 E:/Material/DigitalDesign/projects/code/DSP.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Material/DigitalDesign/projects/code/DSP.v|
+!i113 1
+R3
+R4
+n@d@s@p48@a1
+vDSP48A1_tb
+R5
+!i10b 1
+!s100 <G`5TXoE]2gQKa5^YV1kn2
+IEW5]caG8fGWnbmzjjA>j01
+R0
+R1
+w1741419662
+8E:/Material/DigitalDesign/projects/code/DSP_tb.v
+FE:/Material/DigitalDesign/projects/code/DSP_tb.v
+L0 3
+R2
+r1
+!s85 0
+31
+Z6 !s108 1741487146.000000
+!s107 E:/Material/DigitalDesign/projects/code/DSP_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Material/DigitalDesign/projects/code/DSP_tb.v|
+!i113 1
+R3
+R4
+n@d@s@p48@a1_tb
+vREG_MUX_pair
+R5
+!i10b 1
+!s100 6OXnYj5JXClhP=HhlUC7]3
+I6OOe`X6`eWk_UhnXk11Th0
+R0
+R1
+w1741460372
+8E:/Material/DigitalDesign/projects/code/reg_mux_pair.v
+FE:/Material/DigitalDesign/projects/code/reg_mux_pair.v
+L0 1
+R2
+r1
+!s85 0
+31
+R6
+!s107 E:/Material/DigitalDesign/projects/code/reg_mux_pair.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Material/DigitalDesign/projects/code/reg_mux_pair.v|
+!i113 1
+R3
+R4
+n@r@e@g_@m@u@x_pair

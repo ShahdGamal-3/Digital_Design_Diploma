@@ -1,0 +1,23 @@
+<LayoutInfo CurrentRTLLayout="Default" version="1">
+ <Layout Name="Default" Type="IDE_pref">
+  <dockareas top="0" bottom="494" right="720" left="480"/>
+  <taborder bottom="transcript+zinmsgviewer+zinlintMsgView+zinlintDesignMetricsView+zinlintDesignInfoView+zinlintMsgStatusHistoryView+zinlintMsgDashboardView+" right="zinlintMsgSummaryView+" left="zinflownavigator+zindetails+zincdcdutview+zindirectiveseditor+"/>
+  <activetab bottom="zinlintMsgView" activewindow="zinlintMsgView" right="zinlintMsgSummaryView" left="zindetails"/>
+  <window title="Flow Navigator" visible="1" undocked="0" dock_location="left" type="zinflownavigator" x="0" y="0"/>
+  <window title="Details" visible="1" undocked="0" dock_location="left" type="zindetails" x="0" y="0"/>
+  <window title="Design" visible="1" undocked="0" dock_location="left" type="zincdcdutview" x="0" y="0"/>
+  <window title="Directives" visible="1" undocked="0" dock_location="left" type="zindirectiveseditor" x="0" y="0"/>
+  <window title="Lint Summary" visible="1" undocked="0" dock_location="right" type="zinlintMsgSummaryView" x="0" y="0"/>
+  <window visible="1" undocked="0" dock_location="bottom" type="transcript" x="0" y="0"/>
+  <window title="Message Viewer" visible="1" undocked="0" dock_location="bottom" type="zinmsgviewer" x="0" y="0"/>
+  <window title="Lint Checks" visible="1" undocked="0" dock_location="bottom" type="zinlintMsgView" x="0" y="0"/>
+  <window title="Design Metrics" visible="1" undocked="0" dock_location="bottom" type="zinlintDesignMetricsView" x="0" y="0"/>
+  <window title="Design Information" visible="1" undocked="0" dock_location="bottom" type="zinlintDesignInfoView" x="0" y="0"/>
+  <window title="Status History" visible="1" undocked="0" dock_location="bottom" type="zinlintMsgStatusHistoryView" x="0" y="0"/>
+  <window title="Lint Dashboard" visible="1" undocked="0" dock_location="bottom" type="zinlintMsgDashboardView" x="0" y="0"/>
+  <window height="1013" visible="1" width="1920" undocked="0" type="rtl" x="-1" y="-9"/>
+  <window visible="0" undocked="0" dock_location="center" type="source" x="0" y="0"/>
+  <window visible="1" undocked="0" dock_location="center" type="source" x="0" y="0" id="1"/>
+  <window title="Schematic" visible="0" undocked="0" dock_location="right" type="zinschematicview" x="0" y="0"/>
+ </Layout>
+</LayoutInfo>
